@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 400px) {
+  .container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+  .logo-section {
+    display: flex;
+    align-items: center;
+  }
+  
+.col-2 {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.sign {
+  margin-top: 30px;
+}
+
+.left-side {
+  position: relative;
+  width: 50%;
+}
+
+.right-side {
+  width: 50%;
+  padding: 0px 20px;
+}
+
+.hope {
+  width: 100%;
+}
+
+.mask {
+  position: absolute;
+  top: 0px;
+  left: 38%;
+  top: 35%;
+  width: 145px;
+}
+
+.mask > .mask-img {
+  width: inherit;
+}
+
+.arr-cont {
+  position: relative;
+}
+.arrow {
+  position: absolute;
+  top: 12%;
+  /* left: 11.5%; */
+}
+
+.arrows {
+  position: absolute;
+  top: 42%;
+  /* left: 11.5%; */
+}
+
+.btn-cont {
+  margin-top: 30px;
+}
+
+#center-el {
+  text-transform: capitalize;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.fa-solid {
+  color: rgb(227, 100, 100);
+}
+
+.fa-solid:hover {
+  color: rgb(77, 77, 247);
+}
+
+.btn {
+  width: 60%;
+  padding: 10px 20px;
+}
+
+.button-1 {
+  text-align: center;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.button-2 {
+  background-color: white;
+  color: red;
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  width: 60%;
+  margin-top: 40px;
+}
+
+}
