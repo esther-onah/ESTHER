@@ -83,10 +83,10 @@ button{
 }
 
 .fa-solid{
-  float: right;
+  float: center;
   font-size: 2rem;
   padding:2% 58%;
-  margin:5px;
+  margin:12px 25px;
 }
 
 @media only screen and (max-width:600px) {
@@ -116,7 +116,7 @@ button{
     }
     button{
       width:100vw;
-      height: 50px;
+      height: 10vh;
       border-radius: 6px;
       font-family:Arial, Helvetica, sans-serif;
       font-size: 1rem;
