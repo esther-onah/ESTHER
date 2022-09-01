@@ -14,6 +14,7 @@ body {
   margin:0px;
   padding:0px;
   display:flex;
+  
 }
 
 /* place the contents side by side to each other */
@@ -63,7 +64,7 @@ span{
 }
 /* style the btn */
 button{
-  width:30vw;
+  width:20vw;
   height: 50px;
   margin-right:10px;
   margin:10px;
