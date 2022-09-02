@@ -55,6 +55,7 @@ span{
   font-family: Arial, Helvetica, sans-serif;
   display:grid;
   margin-top:15%;
+     margin-right: 50%;
 
   
 }
@@ -113,8 +114,9 @@ button{
     visibility: visible;
   }
   span{
-    top:20px;
-    margin-left:0px;
+    top:40px;
+    margin-left:20%;
+    margin-right: 50%;
   }
   .right-menu{
     display:inline-block;  
@@ -129,6 +131,17 @@ button{
       text-align: center;
     
     }
+    .btn-btn{
+      background-color: red;
+      color:white;
+      border:none;
+      width: 20%;
+    }
+    .btn-btns{
+      color:red;
+      width: 20%;
+    }
+    
     .right-content{
       text-transform: capitalize;
       font-family: Arial, Helvetica, sans-serif;
